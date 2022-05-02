@@ -1,5 +1,5 @@
 # cointelPY
-![Alt text](figures/logo.png?raw=true "Title")
+![Alt text](https://raw.githubusercontent.com/cointelfinance/cointelR/master/figures/logo.png?raw=true "Title")
 
 # Package Installation
 ```r
