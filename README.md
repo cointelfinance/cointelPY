@@ -1,19 +1,14 @@
 # cointelPY
 ![Alt text](https://raw.githubusercontent.com/cointelfinance/cointelR/master/figures/logo.png?raw=true "Title")
 
-# Package Installation
-```r
-devtools::install_github(cointelR)
-```
-# Load Package
-```r
-library(cointelR)
+# Load Dependencies
+```python
+import pandas as pd
 ```
 # Package Functions
-```{r}
-cointelR::wallet_balances()
-
-cointelR::wallet_tx()
+```python
+cointel_api_url = "https://cointel-api.herokuapp.com/wallet_balances?wallet_address=0xe83b691f8E42D86cDa0c2D7fB62Ce5f562d5Af41"
+cointel_wallet_balances = pd.read_csv(cointel_api_url)
 ```
 # Products & Lifecycles
 | Product | Description | Product Lifecycle |
